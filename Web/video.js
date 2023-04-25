@@ -1,6 +1,6 @@
 gapi.load('client', function () {
   gapi.client.init({
-    apiKey: '719676330615-9ka7a0s9d0mjlj59qapap0nn3scqhiag.apps.googleusercontent.com'
+    apiKey: ''
   }).then(function () {
     return gapi.client.request({
       path: 'https://www.googleapis.com/youtube/v3/search',
@@ -10,7 +10,7 @@ gapi.load('client', function () {
         maxResults: 10,
         order: 'date',
         type: 'video',
-        key: '719676330615-9ka7a0s9d0mjlj59qapap0nn3scqhiag.apps.googleusercontent.com'
+        key: ''
       }
     });
   }).then(function (response) {
